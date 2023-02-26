@@ -1,0 +1,10 @@
+baseurl: ''
+title: Cheesetec
+author: Gareth Cheeseman
+description: A blog of some computer things
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink: /articles/:short_year/:title
+timezone: America/New_York
+excerpt_separator: <!--more-->
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
