@@ -33,7 +33,7 @@ jobs:
               - 'fruit_salad/**'
               - 'choco_pud/**'
 ```
-Note the `output:` this is so we can use the result in other jobs. The `packages` output is a JSON array. Any of the filters that have file changes will be present in the array e.g. `[main_dish, fruit_salad]`.
+Note the `output:` this is so we can use the result in other jobs. The `packages` output is a JSON array. Any of the filters that have file changes will be present in the array e.g. `[main_dish, dessert]`.
 
 ### Using the changes output in other jobs
 You can then use the output in other jobs, such as a build. For instance if each of the dinner project needs to have a different build image you could use it in a matrix strategy like this:
