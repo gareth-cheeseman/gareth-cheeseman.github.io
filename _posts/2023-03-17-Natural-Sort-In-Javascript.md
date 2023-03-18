@@ -8,7 +8,7 @@ categories: post
 
 {% newthought "Don't waste time" %} trying to implement your own comparator. Or import yet another npm package. Javascript has a 'standard' way of doing this with the `Intl.Collator`{% sidenote 'collator', 'See [Intl.Collator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator)' %}.
 
-{% newthought "Intended to help" %} with language-sensitive comparisions it can also be used for natural sort. For example:
+Intended to help with language-sensitive comparisions it can also be used for natural sort. For example:
 
 ```javascript
 const items = ["z11", "z2", "Z11", "Z2"];
